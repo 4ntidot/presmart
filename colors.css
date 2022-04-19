@@ -1,0 +1,14 @@
+:root.lightMode {
+	--ui-primary: #8b5cf6;
+	--ui-bg-first: #f8fafc;
+	--ui-bg-second: #f1f5f9;
+	--ui-txt-first: #0f172a;
+	--ui-txt-second: #334155;
+}
+:root.darkMode {
+	--ui-primary: #8b5cf6;
+	--ui-bg-first: #1e293b;
+	--ui-bg-second: #475569;
+	--ui-txt-first: #f8fafc;
+	--ui-txt-second: #f1f5f9;
+}
