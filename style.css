@@ -1,0 +1,47 @@
+@import url("colors.css");
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: Avenir Next, sans-serif;
+}
+
+.header {
+	color: var(--ui-txt-second);
+	background-color: var(--ui-bg-second);
+	background-image: url("/static/banner.png");
+	filter: blur(16px);
+	padding: 18px;
+}
+.content {
+	color: var(--ui-txt-first);
+	background-color: var(--ui-bg-first);
+	padding: 18px;
+}
+.footer {
+	color: var(--ui-txt-second);
+	background-color: var(--ui-bg-second);
+	padding: 18px;
+}
+
+button {
+	color: var(--ui-txt-second);
+	background-color: var(--ui-bg-second);
+	border: solid 1px var(--ui-txt-second);
+	border-radius: 4px;
+	outline: none;
+	padding: 4.5px;
+}
+button.filled,
+button:focus {
+	color: #f8fafc;
+	background-color: var(--ui-primary);
+	border: none;
+}
+button a {
+	color: var(--ui-txt-2);
+}
+button.filled a,
+button:focus a {
+	color: #f8fafc;
+}
