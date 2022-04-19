@@ -30,7 +30,8 @@ button {
 	border: solid 1px var(--ui-txt-second);
 	border-radius: 4px;
 	outline: none;
-	padding: 4.5px;
+	padding: 4.5px 18px 4.5px 4.5px;
+	height: 32px;
 }
 button.filled,
 button:focus {
@@ -44,4 +45,7 @@ button a {
 button.filled a,
 button:focus a {
 	color: #f8fafc;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: inherit;
 }
