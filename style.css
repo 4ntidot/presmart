@@ -10,7 +10,7 @@
 	color: var(--ui-txt-second);
 	background-color: var(--ui-bg-second);
 	background-image: url("/static/banner.png");
-	filter: blur(16px);
+	background-filter: blur(16px);
 	padding: 18px;
 }
 .content {
